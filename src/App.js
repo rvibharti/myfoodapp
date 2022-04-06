@@ -4,6 +4,7 @@ import NavBar from './Component/Navbar';
 import Login from './Component/Login';
 import Menu from './Component/Menu';
 import Home from './Component/Home';
+import Orders from './Component/Orders';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path='Menu' element={<Menu />}></Route>
         <Route path='Logout' element={<Logout />}></Route>
         <Route path='LogIn' element={<Login />}></Route>
+        <Route path='Orders' element={<Orders />}></Route>
 
       </Routes >
     </>
